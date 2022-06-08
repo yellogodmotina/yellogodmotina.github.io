@@ -1,7 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
 @font-face {
-    font-family: 'Yella Standard';
-    src: url('YELLASTANDARD.ttf');
+    font-family: Yella Standard;
+    src: url(YELLASTANDARD.ttf);
             }
-h1 {
-    font-family: 'Yella Standard';
-    }
+            
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeInD {
+    0% { opacity: 0; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.sub {
+    font-family: Yella Standard;   
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 2px 2px #000000;
+
+}
+
+.maintext {
+    font-family: Yella Standard;   
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 2px 2px #000000;
+
+}      
+
+html { 
+    background: url(bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.fadeimg { 
+    animation: fadeIn 2s; 
+}
+.delayfade { 
+    animation: fadeIn 4s; 
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none;
+}
+
+a:active { 
+    text-decoration: none; 
+}
+
+.grow { 
+    transition: all .1s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
