@@ -24,7 +24,7 @@
 .sub {
     font-family: Yella Standard;   
     text-align: center;
-    font-size: 16px;
+    font-size: 150%;
     text-shadow: 2px 2px #000000;
 
 }
@@ -32,7 +32,7 @@
 .maintext {
     font-family: Yella Standard;   
     text-align: center;
-    font-size: 32px;
+    font-size: 200%;
     text-shadow: 2px 2px #000000;
 
 }      
@@ -50,7 +50,7 @@ img {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 1024px;
+  width: 50%;
 }
 
 .fadeimg { 
